@@ -1,195 +1,408 @@
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 200px;
+*{
+    margin: 0;
+    padding: 0;
 }
 body{
-    font-family: 'Open Sans', sans-serif;
+    background-color:#FFF; ;
+    width: 1600px;
+    height:100%;
 }
-.nav title{
-    color:#181818 ;
-    font-size: 45px;
-    font-weight: 800;
-
+.happy-new-year-contener{
+     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background-size: cover;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    border: 16px;
+    margin: 50px 140px;
+    background-image: url(resources/Banner\ Image.png) ;
+    
+    
 }
-.button-primary{
-    border-radius: 5px;
-    background-color: #FD6E0A;
-    border: 0;
-    font-style: normal;
-    font-weight: 700;
-    color:#FFF;
-    padding: 15px 35px;
+.celebration{
+    color: #FFF;
+    text-align: center;
 }
-.text-primary{
-    color:#FD6E0A;
-    font-family: 'Open Sans', sans-serif;
-}
-nav > ul{
-    display: flex;
-    align-items: center;
-}
-nav li{
-    list-style: none;
-    margin-right: 50px;
-}
-nav a{
-    text-decoration: none;
-    color: #474747;
-}
-.header{
-    background-color: #FFF8F3;;
-    background-image: url('images/header_bg.png'),url('images/developer.png');
-    background-repeat: no-repeat;
-    background-position: bottom right,top left;
-}
-.banner{
-    padding: 30px 30px 0px 150px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.banner-content{
-    max-width: 800px;
-}
-.picture{
-    width: 500px;
-}
-.banner-griting{
-    font-size: 45px;
-    color:#474747;
-    margin-bottom: 0;
-}
-.banner-title{
-    font-size: 85px;
-    font-weight: 700;
-    margin-top: 5px;
-    margin-bottom: 20px;
-}
-.banner-drictpution{
-    margin-top:0;
-    margin-bottom: 5px;
-}
-.about{
-    padding: 131px;
-    border-radius: 10px;
-background: #FFF8F3;
-margin: 131px 0;
-}
-.section-title{
-    color: var(--Dark-01, #181818);
+.nweyear{
+color: #FFF;
 text-align: center;
-font-size: 35px;
+font-family: Merriweather;
+font-size: 32px;
+font-weight: 400;
+padding-top: 177px;
+}
+.newyear-discription{
+color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px; /* 131.944% */
+width: 632px;
+padding-left: 344px;
+}
+.ALL-CATEGORIES{
+text-align: center;
+}
+.off{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
 font-weight: 700;
 }
-.section-description{
-    color: var(--Dark-03, #757575);
-    text-align: center;
-    font-family: Open Sans;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; 
-}
-main{
-    max-width: 1140px;
-    margin: 0 auto;
-}
-.about-info-cointaner{
-    display: flex;
-    justify-content: space-around;
-    
-}
-.about-info{
-    text-align: center;
-    height: 60px;
-    width: 185px;
-    line-height: 4px
-}
-.info-description{
-    font-weight: bolder;
-}
-.info-titlr{
-    color:#757575;
-}
-#i-do{
-    padding: 30px 150px;
-    
-}
-.skill-cointener{
-    display: flex;
-    gap:24px;
-}
-.skill{
-    padding: 30px;
-    border-radius: 5px;
-    background: #FFF;
-    
-    box-shadow: 0px 6px 50px 0px 
-}
-.skill-description{
-    color: #757575;
-}
-main section{
-    margin-top: 130px;
-}
-.resume-colum-title{
-    color: var(--Dark-02, #474747);
-    font-size: 30px;
-    font-weight: 700;
-}
-.resume-cointener{
-    display: flex;
-}
-.resume-item-description{
-    color:#757575;}
-   
-.resume-item-institute{
-    color:#757575;
-   margin-top: 0;
-    margin-bottom: 20px;
-}
-.resume-item-title{
-    color: #474747;
-font-size: 25px;
-font-weight: 700;
-margin-bottom: 10px;
-}
-.resume-cointener hr{
-    margin: 30px 30px;
-}
-.download-cv{
-    text-align: center;
-    margin-top: 50px;
-}
-footer{
-    display: flex;
-    gap: 100PX;
-    background: #FFF8F3;
-    padding: 130px 200px;
-    margin-top: 100px;
-}
-.footer-collum{
-    width: 50%;
-}
-.social-link a{
-    margin-right: 25px;
-}
+.of-discription{
+    color: #F00;
 
-.contact input , textarea{
-    display: block;
-    margin-bottom: 25px;
-    padding: 18px 35px;
-    color: #757575;
-    border-radius: 5px;
-    background: #FFF;
-    border: 0;
-    width: 100%;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+padding-top: 48px;
+}
+.of-discription2{
+color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+}
+.happy-newyear-photo{
+    width: 802.9px;
+height: 500px;
+padding-left: 349px;
+margin-top: 40px;
+}
+.Welcome{
+    background-image:url(resources/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    border: 16px;
+    margin: 50px 140px;
+}
+.party{
+    display: flex;
+}
+.welcome-party{
+    text-align: left;
+    color: #FFF;
+    margin-top: 126px;
+    width: 697px;
+}
+.party-discription{
+    color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 70px; /* 137.5% */
+letter-spacing: 6px;
+margin-left: 126px;
+}
+.party-discription2{
+color: rgba(255, 255, 255, 0.80);
+padding-left: 126px;
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+padding-top: 24px;
+line-height: 30px; /* 166.667% */
+}
+.h5{
+    padding-top: 40px;
+    padding-left: 126px;
+    font-size: 20px;
+}
+.pic{
+    padding-top: 68px;
+    padding-left: 62px;
+}
+.join{
+   width: 1320px;
+    height: 282px;
+    border-radius: 16px;
+    border: 16px;
+    margin: 80px 140px;
+    background-color:rgb(255, 234, 234);
+    text-align: center;
+    padding-top: 100px;
+}
+.date{
+    font-size: 32px;
+    font-weight: 600;
+}
+.date-colour{
+    color: #F00;
 }
 #btn{
-    background: #FD6E0A;
-    width: 150px;
-    height: 64px;
-    color:#FFF;
+ padding: 16px 32px;
+ border-radius: 8px;
+background: #F00;
+color: #FFF;
+font-size: 20px;
+font-weight: 700;
 }
+.commingsoon{
+    width: 1320px;
+    height: 450px;
+    background-color:white;
+    margin: 80px 140px;
+}
+.coming-soon{
+    display: flex;
+    justify-content: space-between;
+}
+.newoffer{
+padding-top: 100px;
+}
+.offer{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500
+}
+.comming{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+}
+.newoffe-discription{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px; /* 160% */
+display: block;
+width: 393px;
+}
+.round-pic{
+    border-radius: 50%;
+    border: 10px solid #dd1010;
+    margin-top: 20px;
+}
+.round-pic2{
+    padding: 20px;
+}
+.doller{
+    padding-top: 50px;
+}
+#a{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+.dollwe-discription{
+    display: block;
+    width: 276px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    padding-bottom: 20px;
+}
+.sale{
+    text-align: center;
+}
+.holiday-discription{
+    display: block;
+    text-align: center;
+    width: 600px;
+    margin-left: 500px;
+}
+.function{
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.salerate{
+    font-size: 72px;
+    font-weight: 900;
+    font-family: Merriweather;
+}
+#holi{
+    color: #F00;
+}
+.holiday-discription{
+    color: rgba(7, 2, 17, 0.60);
+    line-height: 32px;
+    font-weight: 500;
+}
+.photo-galary-contener{
+    margin-left:140px;
+}
+#imgpic{
+    height: 500px;
+    width: 1300px;
+}
+.gift{
+    margin-left: 150px;
+    padding-top: 100px;
+}
+.figrheadline{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+.gift-h1head{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+}
+.ghift-discription{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+display: block;
+width: 896px;
+}
+.picture-container{
+    display: flex;
+    margin-left: 150px;
+    padding-top: 30px;
+}
+
+.pictureone:hover {
+    border: 5px solid #9307b6;
+}
+.pictureone{
+padding: 8px;
+}
+.sub{
+    width: 1320px;
+    height: 482px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-left: 150px;
+    margin-top: 100px;
+    padding-top: 100px;
+    text-align: center;
+}
+.SUB-H{
+    color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+padding-top: 10px;
+}
+.sub-describe{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    display: block;
+    width: 896px;
+    margin-left: 150px;
+}
+input{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    
+}  
+form{
+    margin: 30px;
+}
+    input[type="email"] {
+        background:#FFF;
+        width: 340px; 
+      height: 50px;
+       border: none;
+       outline: none;
+       padding: 0 25px;
+       border-radius: 25px 0 0 25px;
+      }
+      
+      input[type="submit"] {
+       position: relative;
+       left: -5px;
+       border-radius: 0 25px 25px 0;
+       width: 150px;
+       height: 50px;
+       border: none;
+       outline: none;
+       cursor: pointer;
+       background: #F00;
+       color: #FFF;
+
+
+      }
+      footer{
+        background-color: #070211;
+        color: #FFF;
+        width: 100%;
+        height: 616px;
+        margin-top: 120px;
+      }
+      .footar{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 120px;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 40px; /* 166.667% */
+        
+      }
+      #discription{
+       width: 350px;
+       height: 80px;
+      }
+      .imge-link{
+        display: flex;
+        justify-content: space-between;
+      }
+    
+      .imgelink{
+        display: flex;
+      }
+      #linl-logo{
+        text-align: center;
+        margin-top: 60px;
+      }
+      .footerb{
+        border-top-width: 3px;
+        border-bottom-width: 3px;
+        border-style: solid;
+        border-color: #181010;
+        padding: 10px;
+        margin-left: 140px;
+        margin-right: 140px;
+        border-left: none;
+        border-right: none;
+        margin-top: 20px;
+        
+      }
+      .l{
+        padding-bottom: 30px;
+        
+
+      }
+      #last{
+         display: flex;
+        justify-content: space-around;
+        margin-bottom: 120px;
+        padding-top: 50px;
+      }
+      #lf{
+        color: #FFF;
+         font-family: Inter;
+         font-size: 24px;
+         font-weight: 500;
+      }
+      #ll{
+        color: #FFF;
+        font-family: Inter;
+         font-size: 24px;
+         font-weight: 500;
+      }
+  
+    
+
+     
